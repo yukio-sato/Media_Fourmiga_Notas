@@ -69,6 +69,9 @@ else
 {
 Console.ForegroundColor = ConsoleColor.Red;
 frase("Tem somente 0 notas, então não tem como fazer a média.\n");
+Console.ForegroundColor = ConsoleColor.Yellow;
+Console.WriteLine("Pressione qualquer tecla para finalizar.");
+Console.ReadKey();
 }
 }
 loop();
