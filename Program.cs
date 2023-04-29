@@ -24,7 +24,7 @@ frase($"Digite a {i+1}° nota: ");
 Console.ForegroundColor = ConsoleColor.White;
 double nota = double.Parse(Console.ReadLine()!);
 notas.Add(nota);
-if (nota <= min || nota > max)
+if (nota < min || nota > max)
 {
     naRules = false;
 }
